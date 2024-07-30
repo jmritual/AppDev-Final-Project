@@ -1,0 +1,98 @@
+name: libraryz
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  google_fonts: ^4.0.3
+  flutter_pdfview: ^1.0.4
+  pdfrx: ^1.0.82
+  gradient_floating_button: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/
+    - assets/img/4.jpg
+    - assets/img/5.jpg
+    - assets/img/6.jpg
+    - assets/img/10.jpg
+    - assets/img/en6.jpg
+    - assets/img/en7.jpg
+    - assets/img/fiv.1.jpg
+    - assets/img/fiv.2.jpg
+    - assets/img/fiv.3.jpg
+    - assets/img/fiv.4.jpg
+    - assets/img/fiv.5.jpg
+    - assets/img/fiv.6.jpg
+    - assets/img/fiv.7.jpg
+    - assets/img/fiv.8.jpg
+    - assets/img/fiv.9.jpg
+    - assets/img/fiv.10.jpg
+    - assets/img/fiv.11.jpg
+    - assets/img/fiv.12.jpg
+    - assets/img/fiv.13.jpg
+    - assets/img/fiv.14.jpg
+    - assets/img/fiv.15.png
+    - assets/img/fiv.16.jpg
+    - assets/img/fiv.17.jpg
+    - assets/img/fiv.18.jpg
+    - assets/img/fiv.19.jpg
+    - assets/img/fiv.20.jpg
+    - assets/harry_potter.pdf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  #fonts:
+  #  - family: SF Pro Text
+  #    fonts:
+  #      - asset:
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
